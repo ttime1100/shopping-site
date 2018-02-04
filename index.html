@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/mdb.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="C:/Users/T-Time/wdi/lessons/shopping-site/js/fontawesome-all.min.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -17,26 +18,66 @@
 </div>
 </div>
 
-<div class="container">
+<div class="container-fluid h-75">
+<div class="row h-75">
+
+<div class="col h-25">
+<h1 class="text-center">Shopping Cart</h1>
+<ul class="text-center" id="shopping-cart">
+<li>Add Items</li>
+
+</ul>
+
+</div>
+
+</div>
+</div>
+
+<div class="container-fluid">
 <div class="row">
 
-<div class="col">
-<div class="card w-50">
-  <img class="card-img-top ml-5 w-75 img-fluid" src="C:\Users\T-Time\wdi\lessons\shopping-site\img\entertainment.png" alt="Card image cap">
+<div class="col-md-3">
+<div class="card w-75">
+  <img class="card-img-top w-75 img-fluid" src="C:\Users\T-Time\wdi\lessons\shopping-site\img\entertainment.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Entertainment</h5>
     <p class="card-text">Come see what attractions and events we have to offer</p>
-    <a href="#" class="btn btn-outline-primary">Come In!</a>
+    <button type="button" class="btn btn-outline-primary" id="ent-int">Click To Shop!</a>
   </div>
 </div>
 </div>
 
-<div class="col w-25" id="cart">
-<h3>Shopping Cart</h3>
-<select class="w-50">
-  <options>
-  </select>
-</div>
+  <div class="col mt-5" id="ent-item">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-img-four.jpg">
+<h4 class="text-center">Computer</h4>
+<button class="btn" type="button" id="item-button">Add To Cart</button>
+  </div>
+
+  <div class="col mt-5" id="ent-item-one">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-one-img.jpg">
+    <h4 class="text-center">Monitor</h4>
+<button class="btn" type="button" id="item-button-two">Add To Cart</button>
+  </div>
+
+  <div class="col mt-5" id="ent-item-two">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-five-img.jpg">
+    <h4 class="text-center">Home System</h4>
+<button class="btn" type="button" id="item-button-three">Add To Cart</button>
+  </div>
+
+  <div class="col mt-5" id="ent-item-three">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-three-img.jpg">
+    <h4 class="text-center">TV Set-Up</h4>
+<button class="btn" type="button" id="item-button-four">Add To Cart</button>
+  </div>
+
+  <div class="col mt-5" id="ent-item-four">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-two-img.jpg">
+    <h4 class="text-center">Radio</h4>
+<button class="btn" type="button" id="item-button-five">Add To Cart</button>
+  </div>
+
+
 
 
 </div>
@@ -46,9 +87,9 @@
 <div class="container-fluid">
   <div class="row">
 
-    <div class="col mt-5">
-    <div class="card w-50">
-      <img class="card-img-top img-fluid w-75 ml-5" src="C:\Users\T-Time\wdi\lessons\shopping-site\img\technology.jpg" alt="Card image cap">
+    <div class="col-md-4 mt-5">
+    <div class="card w-75">
+      <img class="card-img-top img-fluid mt-5 w-75 ml-5" src="C:\Users\T-Time\wdi\lessons\shopping-site\img\technology.jpg" alt="Card image cap">
       <div class="card-body">
         <br/>
         <h4 class="card-title">Technology</h4>
@@ -59,6 +100,33 @@
   </div>
 
 
+  <div class="col mt-5">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-img-four.jpg">
+<button class="btn" type="button">Add To Cart</button>
+  </div>
+
+  <div class="col mt-5">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-one-img.jpg">
+<button class="btn" type="button">Add To Cart</button>
+  </div>
+
+  <div class="col mt-5">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-five-img.jpg">
+<button class="btn" type="button">Add To Cart</button>
+  </div>
+
+  <div class="col mt-5">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-three-img.jpg">
+<button class="btn" type="button">Add To Cart</button>
+  </div>
+
+  <div class="col mt-5">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-two-img.jpg">
+<button class="btn" type="button">Add To Cart</button>
+  </div>
+
+
+
 </div>
 </div>
 
@@ -66,8 +134,8 @@
 <div class"container-fluid">
   <div class="row">
 
-    <div class="col mt-5">
-    <div class="card w-50">
+    <div class="col-md-4 ml-3 mt-5">
+    <div class="card w-75">
       <img class="card-img-top img-fluid w-75 ml-5" src="C:\Users\T-Time\wdi\lessons\shopping-site\img\food.jpeg" alt="Card image cap">
       <div class="card-body">
         <h4 class="card-title ml-3">Food</h4>
@@ -76,6 +144,34 @@
       </div>
     </div>
     </div>
+
+
+    <div class="col mt-5 w-50">
+      <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-img-four.jpg">
+<button class="btn" type="button">Add To Cart</button>
+    </div>
+
+    <div class="col mt-5 w-50">
+      <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-one-img.jpg">
+<button class="btn" type="button">Add To Cart</button>
+    </div>
+
+    <div class="col mt-5 w-50">
+      <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-five-img.jpg">
+<button class="btn" type="button">Add To Cart</button>
+    </div>
+
+    <div class="col mt-5 w-50">
+      <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-three-img.jpg">
+<button class="btn" type="button">Add To Cart</button>
+    </div>
+
+    <div class="col mt-5 w-50">
+      <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-two-img.jpg">
+<button class="btn" type="button">Add To Cart</button>
+    </div>
+
+
 
 </div>
 </div>
