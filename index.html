@@ -18,27 +18,28 @@
 </div>
 </div>
 
-<div class="container-fluid h-75">
+<div class="container-fluid h-50">
 <div class="row h-75">
 
-<div class="col h-25">
+<div class="col h-75 bg-warning">
 <h1 class="text-center">Shopping Cart</h1>
 <ul class="text-center" id="shopping-cart">
-<li>Add Items</li>
 
 </ul>
-
+<button type="button" class="btn w-25 float-right" id="delete">Delete Previous</button>
 </div>
 
 </div>
 </div>
+<br/>
+<br/>
 
 <div class="container-fluid">
 <div class="row">
 
-<div class="col-md-3">
-<div class="card w-75">
-  <img class="card-img-top w-75 img-fluid" src="C:\Users\T-Time\wdi\lessons\shopping-site\img\entertainment.png" alt="Card image cap">
+<div class="col-md-2 w-100">
+<div class="card w-100">
+  <img class="card-img-top img-fluid bg-primary" src="C:\Users\T-Time\wdi\lessons\shopping-site\img\entertainment.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Entertainment</h5>
     <p class="card-text">Come see what attractions and events we have to offer</p>
@@ -72,8 +73,8 @@
   </div>
 
   <div class="col mt-5" id="ent-item-four">
-    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-two-img.jpg">
-    <h4 class="text-center">Radio</h4>
+    <img id="img" class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-two-img.jpg">
+    <h4 class="ml-5">Radio</h4>
 <button class="btn" type="button" id="item-button-five">Add To Cart</button>
   </div>
 
@@ -87,42 +88,46 @@
 <div class="container-fluid">
   <div class="row">
 
-    <div class="col-md-4 mt-5">
-    <div class="card w-75">
-      <img class="card-img-top img-fluid mt-5 w-75 ml-5" src="C:\Users\T-Time\wdi\lessons\shopping-site\img\technology.jpg" alt="Card image cap">
+    <div class="col-md-2 mt-5">
+    <div class="card w-100">
+      <img class="card-img-top img-fluid" src="C:\Users\T-Time\wdi\lessons\shopping-site\img\technology.jpg" alt="Card image cap">
       <div class="card-body">
-        <br/>
         <h4 class="card-title">Technology</h4>
         <p class="card-text">Get products that make your life a breeze and are the newest trends in technology</p>
-        <a href="#" class="btn btn-outline-primary">Come In!</a>
+        <button type="button" class="btn btn-outline-primary" id="tech-button">Click To Shop!</button>
       </div>
     </div>
   </div>
 
 
-  <div class="col mt-5">
-    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-img-four.jpg">
+  <div class="col mt-5" id="tech-item">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/tech-img-four.jpg">
+<h4>Home Phone</h4>
+<button class="btn" type="button" id="tech-bone">Add To Cart</button>
+  </div>
+
+  <div class="col mt-5" id="tech-item-two">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/tech-img-one.jpg">
+<h4>Iphone Pack</h4>
+<button class="btn" type="button" id="tech-btwo">Add To Cart</button>
+  </div>
+
+  <div class="col mt-5" id="tech-item-three">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/tech-img-two.jpg">
+<h4>Tablet</h4>
+<button class="btn" type="button" id="tech-bthree">Add To Cart</button>
+  </div>
+
+  <div class="col mt-5" id="tech-item-four">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/tech-img-three.jpg">
+<h4>Ipad</h4>
 <button class="btn" type="button">Add To Cart</button>
   </div>
 
-  <div class="col mt-5">
-    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-one-img.jpg">
-<button class="btn" type="button">Add To Cart</button>
-  </div>
-
-  <div class="col mt-5">
-    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-five-img.jpg">
-<button class="btn" type="button">Add To Cart</button>
-  </div>
-
-  <div class="col mt-5">
-    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-three-img.jpg">
-<button class="btn" type="button">Add To Cart</button>
-  </div>
-
-  <div class="col mt-5">
-    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-two-img.jpg">
-<button class="btn" type="button">Add To Cart</button>
+  <div class="col mt-5" id="tech-item-five">
+    <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/tech-img-five.jpg">
+<h4>Iwatch</h4>
+<button class="btn" type="button" id="tech-bfive">Add To Cart</button>
   </div>
 
 
@@ -134,41 +139,46 @@
 <div class"container-fluid">
   <div class="row">
 
-    <div class="col-md-4 ml-3 mt-5">
-    <div class="card w-75">
-      <img class="card-img-top img-fluid w-75 ml-5" src="C:\Users\T-Time\wdi\lessons\shopping-site\img\food.jpeg" alt="Card image cap">
+    <div class="col-md-2  ml-3 mt-5">
+    <div class="card w-100">
+      <img class="card-img-top img-fluid" src="C:\Users\T-Time\wdi\lessons\shopping-site\img\food.jpeg" alt="Card image cap">
       <div class="card-body">
         <h4 class="card-title ml-3">Food</h4>
         <p class="card-text">Come and eat like a superstart with our amazing store available</p>
-        <a href="#" class="btn btn-outline-primary">Come In!</a>
+        <button type="button" class="btn btn-outline-primary" id="food">Click To Shop!</button>
       </div>
     </div>
     </div>
 
 
-    <div class="col mt-5 w-50">
-      <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-img-four.jpg">
-<button class="btn" type="button">Add To Cart</button>
+    <div class="col mt-5 w-50" id="food-one">
+  <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/food-img-one.jpg">
+<h4>Sub</h4>
+<button class="btn" type="button" id="food-bone">Add To Cart</button>
     </div>
 
-    <div class="col mt-5 w-50">
-      <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-one-img.jpg">
-<button class="btn" type="button">Add To Cart</button>
+    <div class="col mt-5 w-50" id="food-two">
+      <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/food-img-two.jpg">
+<h4>Pizza</h4>
+<button class="btn" type="button" id="food-btwo">Add To Cart</button>
     </div>
 
-    <div class="col mt-5 w-50">
-      <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-five-img.jpg">
-<button class="btn" type="button">Add To Cart</button>
+    <div class="col mt-5 w-50" id="food-three">
+      <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/food-img-three.jpg">
+<h4>Chicken</h4>
+<button class="btn" type="button" id="food-bthree">Add To Cart</button>
     </div>
 
-    <div class="col mt-5 w-50">
-      <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-three-img.jpg">
-<button class="btn" type="button">Add To Cart</button>
+    <div class="col mt-5 w-50" id="food-four">
+      <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/food-img-four.jpg">
+<h4>Big Mac</h4>
+<button class="btn" type="button" id="food-bfour">Add To Cart</button>
     </div>
 
-    <div class="col mt-5 w-50">
-      <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/ent-two-img.jpg">
-<button class="btn" type="button">Add To Cart</button>
+    <div class="col mt-5 w-50" id="food-five">
+      <img class="img-fluid" src="C:/Users/T-Time/wdi/lessons/shopping-site/img/food-img-five.jpg">
+<h4>Taco</h4>
+<button class="btn" type="button" id="food-bfive">Add To Cart</button>
     </div>
 
 

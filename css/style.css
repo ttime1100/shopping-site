@@ -1,5 +1,5 @@
 body {
-background-image: url("C:/Users/T-Time/wdi/lessons/shopping-site/img/oceangif.webp");
+background-image: url("C:/Users/T-Time/wdi/lessons/shopping-site/img/source.gif");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -8,4 +8,15 @@ background-size: cover;
 
 li {
   list-style-type: none;
+  display: inline;
+}
+
+
+
+@media screen and (min-width: 1024px ) {
+
+#img {
+  width: 150px;
+}
+
 }
